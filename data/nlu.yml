@@ -15,7 +15,6 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    - Hello! How may I help you?
 - intent: goodbye
   examples: |
     - good afternoon
@@ -62,6 +61,9 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - iam fine
+    - fine
+    - good
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -83,3 +85,6 @@ nlu:
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
+- regex: greet
+  examples: |
+    - iam fine
