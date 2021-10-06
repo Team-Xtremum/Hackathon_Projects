@@ -85,6 +85,9 @@ nlu:
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
-- regex: greet
+- synonym: good
   examples: |
-    - iam fine
+    - gud
+- regex: good
+  examples: |
+    - greet
