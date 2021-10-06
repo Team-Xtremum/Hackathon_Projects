@@ -19,8 +19,6 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
-- hello:
-    use_entities: true
 entities: []
 slots: {}
 responses:
