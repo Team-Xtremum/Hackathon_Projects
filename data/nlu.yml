@@ -36,6 +36,7 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - ok
 - intent: deny
   examples: |
     - no
@@ -88,6 +89,15 @@ nlu:
 - synonym: good
   examples: |
     - gud
+- synonym: ok
+  examples: |
+    - okay
+- regex: abdul kalam
+  examples: |
+    - [apj][abdul kalam][kalam sir][abdul kalam sir]
 - regex: good
   examples: |
     - greet
+- regex: okay
+  examples: |
+    - [ok][k][hmm][hm][mm][yeah]
