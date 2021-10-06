@@ -15,7 +15,7 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    - hi
+    - Hello! How may I help you?
 - intent: goodbye
   examples: |
     - good afternoon
