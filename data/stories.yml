@@ -32,3 +32,7 @@ stories:
   - action: utter_apj
   - intent: dob
   - action: utter_dob
+- story: Untitled Story
+  steps:
+  - intent: polioaffect
+  - action: utter_polioaffect

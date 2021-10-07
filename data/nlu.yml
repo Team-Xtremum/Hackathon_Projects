@@ -96,6 +96,9 @@ nlu:
 - intent: who is apj[abdul kalam][kalam sir][Dr.apj abdul kalam]
   examples: |
     - tell me about abdul kalam
+- intent: polioaffect
+  examples: |
+    - How is polio affected
 - synonym: good
   examples: |
     - gud

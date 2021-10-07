@@ -25,6 +25,8 @@ intents:
     use_entities: true
 - dob:
     use_entities: true
+- polioaffect:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -49,6 +51,9 @@ responses:
   - text: Okay! Thanks..
   utter_dob:
   - text: Born on October 15, 1931 Rameswaram India
+  utter_polioaffect:
+  - image: https://www.criver.com/sites/default/files/content/uploads/12720_Coronavirus_Wuhan_China_CharlesRiverBlog.jpg
+    text: Polio, or poliomyelitis, is a viral disease which may affect the spinal cord causing muscle weakness and paralysis. The polio virus enters the body through the mouth, usually from hands contaminated with the stool of an infected person.
 actions: []
 forms: {}
 e2e_actions: []
