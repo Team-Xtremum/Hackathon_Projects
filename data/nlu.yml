@@ -140,6 +140,8 @@ nlu:
 - intent: polio_prevent
   examples: |
     - how to prevent polio
+    - how can polio be prevented
+    - prevention of polio
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
