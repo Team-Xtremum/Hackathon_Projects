@@ -113,12 +113,13 @@ nlu:
     - how [i]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} get affected by polio
     - how children gets afftected by polio
     - how may i get affected by polio
-    - how is polio infectes
+    - how is polio infected
     - how was polio affected
 - intent: polioinfo
   examples: |
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - [wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+    - explain about polio
 - intent: achievements
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
