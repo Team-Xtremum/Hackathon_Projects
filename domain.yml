@@ -21,13 +21,21 @@ intents:
     use_entities: true
 - apj:
     use_entities: true
-- who is apj[abdul kalam][kalam sir][Dr.apj abdul kalam]:
-    use_entities: true
 - dob:
     use_entities: true
 - polioaffect:
     use_entities: true
-entities: []
+- polioinfo:
+    use_entities: true
+- achievements:
+    use_entities: true
+entities:
+- '[may i][me][myself][people][others][children][child][person][babies]['
+- '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
+- '[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]'
+- '[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]'
+- '[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]'
+- '[is][was][were][are]'
 slots: {}
 responses:
   utter_greet:
@@ -46,7 +54,8 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_apj:
-  - text: Avul Pakir Jainulabdeen Abdul Kalam, Indian scientist and politician.
+  - image: https://hindi.cdn.zeenews.com/hindi/sites/default/files/styles/zm_700x400/public/2017/10/15/172589-apj-abdul-kalam.jpg?itok=BX8w5JbT
+    text: Dr. Avul Pakir Jainulabdeen Abdul Kalam, 11th Indian President (2002-2007), Indian Aerospace Scientist, Head of ISRO and DRDO.
   utter_affirm:
   - text: Okay! Thanks..
   utter_dob:
@@ -54,6 +63,14 @@ responses:
   utter_polioaffect:
   - image: https://www.criver.com/sites/default/files/content/uploads/12720_Coronavirus_Wuhan_China_CharlesRiverBlog.jpg
     text: Polio, or poliomyelitis, is a viral disease which may affect the spinal cord causing muscle weakness and paralysis. The polio virus enters the body through the mouth, usually from hands contaminated with the stool of an infected person.
+  utter_polioinfo:
+  - image: https://www.cdc.gov/polio/images/whatispolio/india_polio_wide.jpg
+    text: |-
+      👉🏻Polio, or poliomyelitis, is a disabling and life-threatening disease caused by the poliovirus.
+      👉🏻The virus spreads from person to person and can infect a person’s spinal cord, causing paralysis (can’t move parts of the body).
+  utter_achievements:
+  - image: https://www.rvcj.com/wp-content/uploads/2015/07/kalam-1.jpg
+    text: ✨APJ Abdul Kalam was also known as the ‘Missile Man of India’ for his contribution to the development of India’s missile projects, Prithvi and Agni missiles. India became a nuclear power under Kalam who was the Chief Scientific Adviser to the Prime Minister between 1992 and 1999. The former president was also the head of several nuclear tests at Pokhran.
 actions: []
 forms: {}
 e2e_actions: []
