@@ -130,25 +130,17 @@ responses:
   utter_polio_prevent:
   - image: https://images.everydayhealth.com/images/kids-health/ways-to-ease-your-babys-vaccination-pain-08-1440x180.jpg
     text: The best way to prevent polio is by vaccination. The inactivated polio vaccine (IPV) is given as a shot and is the only type of polio vaccine available in the United States. The oral polio vaccine (OPV) was discontinued in 2000. Children should receive four doses of IPV vaccine starting at 2 months of age.
-  utter_vaccine_ipv:
-  - buttons:
-    - payload: vaccine_ipv
-      title: Inactivated polio vaccine (IPV)
-    - payload: vaccine_opv
-      title: Oral polio vaccine (OPV)
-    text: 'Vaccines for polio attacks:'
-  - image: http://polioeradication.org/wp-content/uploads/2019/05/ipv-worldwide-in-story-photo.jpg
-    text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
-  utter_vaccine_opv:
-  - image: https://www.science.org/do/10.1126/science.abc0263/abs/1175760757-1280x720.jpg
-    text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
   utter_vaccine:
   - buttons:
-    - payload: utter_vaccine_ipv
+    - payload: utter_ipv
       title: Infected Polio Vaccine
-    - payload: utter_vaccine_opv
+    - payload: utter_opv
       title: Oral Polio Vaccine
-    text: Vaccines for Polio attacks
+    text: 'Vaccines for Polio attacks are:'
+  utter_ipv:
+  - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
+  utter_opv:
+  - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
 actions: []
 forms: {}
 e2e_actions: []

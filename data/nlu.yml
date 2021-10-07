@@ -19,6 +19,7 @@ nlu:
     - hellow
     - hmm
     - hlo
+    - hello lufy
 - intent: goodbye
   examples: |
     - good afternoon
@@ -142,15 +143,15 @@ nlu:
     - how to prevent polio
     - how can polio be prevented
     - prevention of polio
-- intent: vaccine_ipv
-  examples: |
-    - vaccine for polio
-- intent: vaccine_opv
-  examples: |
-    - vaccine for polio attack
 - intent: vaccine
   examples: |
-    - Polio vaccines
+    - what are the vaccines for polio attack
+- intent: vaccine_ipv
+  examples: |
+    - ipv vaccine
+- intent: vaccine_opv
+  examples: |
+    - opv vaccine
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

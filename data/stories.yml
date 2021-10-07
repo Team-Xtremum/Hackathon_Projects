@@ -66,6 +66,8 @@ stories:
   steps:
   - intent: vaccine
   - action: utter_vaccine
+  - intent: affirm
+  - action: utter_vaccine
   - intent: vaccine_ipv
   - action: utter_vaccine_ipv
   - intent: affirm
