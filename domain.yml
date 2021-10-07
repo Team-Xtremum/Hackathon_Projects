@@ -23,6 +23,8 @@ intents:
     use_entities: true
 - who is apj[abdul kalam][kalam sir][Dr.apj abdul kalam]:
     use_entities: true
+- dob:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -45,6 +47,8 @@ responses:
   - text: Avul Pakir Jainulabdeen Abdul Kalam, Indian scientist and politician.
   utter_affirm:
   - text: Okay! Thanks..
+  utter_dob:
+  - text: Born on October 15, 1931 Rameswaram India
 actions: []
 forms: {}
 e2e_actions: []
