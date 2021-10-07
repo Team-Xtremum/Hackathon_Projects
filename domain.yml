@@ -136,7 +136,12 @@ responses:
       title: Inactivated polio vaccine (IPV)
     - payload: vaccine_opv
       title: Oral polio vaccine (OPV)
-    text: Vaccines for polio attacks
+    text: 'Vaccines for polio attacks:'
+  - image: http://polioeradication.org/wp-content/uploads/2019/05/ipv-worldwide-in-story-photo.jpg
+    text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
+  utter_vaccine_opv:
+  - image: https://www.science.org/do/10.1126/science.abc0263/abs/1175760757-1280x720.jpg
+    text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
 actions: []
 forms: {}
 e2e_actions: []
