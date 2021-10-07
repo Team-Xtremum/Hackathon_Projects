@@ -99,6 +99,14 @@ nlu:
 - intent: polioaffect
   examples: |
     - How is polio affected
+    - How does a child get polio?
+    - how polio attacks the body
+    - What does polio do to a person
+    - how did polio [attack]{"entity": "[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]", "role": "attack", "group": "disease"} the body
+    - how [i]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} get affected by polio
+- intent: polioinfo
+  examples: |
+    - what is [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
 - synonym: good
   examples: |
     - gud
@@ -108,6 +116,9 @@ nlu:
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
+- regex: infected
+  examples: |
+    - [affected][infected][attacks]
 - regex: okay
   examples: |
     - [ok][k][hmm][hm][mm][yeah]
