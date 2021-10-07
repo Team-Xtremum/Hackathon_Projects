@@ -115,11 +115,14 @@ nlu:
     - how may i get affected by polio
     - how is polio infected
     - how was polio affected
+    - how may i get affecteed
+    - how may i get affected
 - intent: polioinfo
   examples: |
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - [wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - explain about polio
+    - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
 - intent: achievements
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
@@ -133,6 +136,7 @@ nlu:
 - intent: symptoms
   examples: |
     - [what]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [symptoms]{"entity": "[mark][note][sign][token]", "role": "symptoms", "group": "symptoms"} of [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+    - symptoms of polio
 - intent: polio_orginated
   examples: |
     - where is [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"} [orginated]{"entity": "[arise][origin][begin][found][arose][rise][derived][start][develop][emanate][come from][stem][derive]", "role": "originate", "group": "originate"}
@@ -146,10 +150,10 @@ nlu:
 - intent: vaccine
   examples: |
     - what are the vaccines for polio attack
-- intent: vaccine_ipv
+- intent: ipv
   examples: |
     - ipv vaccine
-- intent: vaccine_opv
+- intent: opv
   examples: |
     - opv vaccine
 - regex: abdul kalam

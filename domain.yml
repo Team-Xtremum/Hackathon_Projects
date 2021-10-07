@@ -41,9 +41,9 @@ intents:
     use_entities: true
 - vaccine:
     use_entities: true
-- vaccine_ipv:
+- opv:
     use_entities: true
-- vaccine_opv:
+- ipv:
     use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
