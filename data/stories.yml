@@ -34,6 +34,8 @@ stories:
   steps:
   - intent: polioinfo
   - action: utter_polioinfo
+  - intent: polioaffect
+  - action: utter_polioaffect
 - story: apj
   steps:
   - intent: apj
@@ -44,3 +46,7 @@ stories:
   steps:
   - intent: achievements
   - action: utter_achievements
+- story: researches
+  steps:
+  - intent: researches
+  - action: utter_researches

@@ -15,6 +15,10 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
+    - hii
+    - hellow
+    - hmm
+    - hlo
 - intent: goodbye
   examples: |
     - good afternoon
@@ -92,9 +96,13 @@ nlu:
     - who is [abdulkalam]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "apjname", "group": "aboutapj"}
     - tell me about abdul kalam
     - who is apj
+    - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about [adbulkalam]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "apjname", "group": "aboutapj"}
+    - who is kalam sir
+    - who is abdul kalam
 - intent: dob
   examples: |
     - when was he born
+    - whe was he born
 - intent: polioaffect
   examples: |
     - How is polio affected
@@ -103,9 +111,14 @@ nlu:
     - What does polio do to a person
     - how did polio [attack]{"entity": "[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]", "role": "attack", "group": "disease"} the body
     - how [i]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} get affected by polio
+    - how children gets afftected by polio
+    - how may i get affected by polio
+    - how is polio infectes
+    - how was polio affected
 - intent: polioinfo
   examples: |
-    - what is [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+    - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+    - [wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
 - intent: achievements
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
