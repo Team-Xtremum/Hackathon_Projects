@@ -68,5 +68,9 @@ stories:
   - action: utter_vaccine
   - intent: vaccine_ipv
   - action: utter_vaccine_ipv
+  - intent: affirm
+  - action: utter_vaccine_ipv
   - intent: vaccine_opv
+  - action: utter_vaccine_opv
+  - intent: affirm
   - action: utter_vaccine_opv

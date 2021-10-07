@@ -142,6 +142,13 @@ responses:
   utter_vaccine_opv:
   - image: https://www.science.org/do/10.1126/science.abc0263/abs/1175760757-1280x720.jpg
     text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
+  utter_vaccine:
+  - buttons:
+    - payload: utter_vaccine_ipv
+      title: Infected Polio Vaccine
+    - payload: utter_vaccine_opv
+      title: Oral Polio Vaccine
+    text: Vaccines for Polio attacks
 actions: []
 forms: {}
 e2e_actions: []
