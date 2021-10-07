@@ -86,6 +86,9 @@ nlu:
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
+- intent: apj
+  examples: |
+    - who is abdul kalam
 - synonym: good
   examples: |
     - gud
