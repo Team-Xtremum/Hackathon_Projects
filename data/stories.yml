@@ -58,3 +58,7 @@ stories:
   steps:
   - intent: symptoms
   - action: utter_symptoms
+- story: prevent
+  steps:
+  - intent: polio_prevent
+  - action: utter_polio_prevent

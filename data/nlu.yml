@@ -132,7 +132,15 @@ nlu:
     - how are you lufy
 - intent: symptoms
   examples: |
-    - what are the symptoms of polio
+    - [what]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [symptoms]{"entity": "[mark][note][sign][token]", "role": "symptoms", "group": "symptoms"} of [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+- intent: polio_orginated
+  examples: |
+    - where is [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"} [orginated]{"entity": "[arise][origin][begin][found][arose][rise][derived][start][develop][emanate][come from][stem][derive]", "role": "originate", "group": "originate"}
+    - where did polio originally come from
+    - where does polio come from
+- intent: polio_prevent
+  examples: |
+    - how to prevent polio
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
