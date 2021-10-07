@@ -98,7 +98,6 @@ nlu:
     - who is apj
     - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about [adbulkalam]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "apjname", "group": "aboutapj"}
     - who is kalam sir
-    - who is abdul kalam
 - intent: dob
   examples: |
     - when was he born
