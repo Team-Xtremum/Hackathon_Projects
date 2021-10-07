@@ -26,3 +26,7 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+- story: apj
+  steps:
+  - intent: apj
+  - action: utter_apj
