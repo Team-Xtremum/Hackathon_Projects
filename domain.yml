@@ -31,6 +31,10 @@ intents:
     use_entities: true
 - researches:
     use_entities: true
+- greet1:
+    use_entities: true
+- symptoms:
+    use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
 - '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
@@ -40,6 +44,7 @@ entities:
 - '[is][was][were][are]'
 - '[brief][explain][give me]'
 - '[innovations][researches][discoveries][projects][experiments][investigations][study]'
+- '[what][wat]'
 slots: {}
 responses:
   utter_greet:
@@ -93,6 +98,20 @@ responses:
       ⚡Headed multiple nuclear tests at Pokhran.
       ⚡He worked in making healthcare accessible to all.
       ⚡Developed the rugged 'Kalam-Raju tablet'.
+  utter_greet1:
+  - text: I'm good.. How about you?
+  utter_symptoms:
+  - text: |-
+      ✔Fatigue.
+      ✔Fever.
+      ✔Headache.
+      ✔Neck stiffness.
+      ✔Pain in the arms and legs.
+      ✔Vomiting.
+      ✔Numbness, a feeling of pins and needles or tingling in the legs or arms.
+      ✔Paralysis in the legs, arms or torso.
+      ✔Trouble breathing because of muscle paralysis in the lungs.
+      ✔Death when the muscles you use to breathe become paralyzed.
 actions: []
 forms: {}
 e2e_actions: []

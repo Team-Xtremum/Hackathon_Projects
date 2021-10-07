@@ -50,3 +50,11 @@ stories:
   steps:
   - intent: researches
   - action: utter_researches
+- story: finegreet
+  steps:
+  - intent: greet1
+  - action: utter_greet1
+- story: symptoms
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
