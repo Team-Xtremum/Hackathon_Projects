@@ -21,6 +21,8 @@ intents:
     use_entities: true
 - apj:
     use_entities: true
+- who is apj[abdul kalam][kalam sir][Dr.apj abdul kalam]:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -41,6 +43,8 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_apj:
   - text: Avul Pakir Jainulabdeen Abdul Kalam, Indian scientist and politician.
+  utter_affirm:
+  - text: Okay! Thanks..
 actions: []
 forms: {}
 e2e_actions: []

@@ -30,3 +30,5 @@ stories:
   steps:
   - intent: apj
   - action: utter_apj
+  - intent: dob
+  - action: utter_dob

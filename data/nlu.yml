@@ -37,6 +37,7 @@ nlu:
     - that sounds good
     - correct
     - ok
+    - k
 - intent: deny
   examples: |
     - no
@@ -89,6 +90,9 @@ nlu:
 - intent: apj
   examples: |
     - who is abdul kalam
+- intent: dob
+  examples: |
+    - when was he born
 - synonym: good
   examples: |
     - gud
@@ -97,10 +101,7 @@ nlu:
     - okay
 - regex: abdul kalam
   examples: |
-    - [apj][abdul kalam][kalam sir][abdul kalam sir]
-- regex: good
-  examples: |
-    - greet
+    - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
 - regex: okay
   examples: |
     - [ok][k][hmm][hm][mm][yeah]
