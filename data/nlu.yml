@@ -93,6 +93,9 @@ nlu:
 - intent: dob
   examples: |
     - when was he born
+- intent: who is apj[abdul kalam][kalam sir][Dr.apj abdul kalam]
+  examples: |
+    - tell me about abdul kalam
 - synonym: good
   examples: |
     - gud
@@ -105,3 +108,6 @@ nlu:
 - regex: okay
   examples: |
     - [ok][k][hmm][hm][mm][yeah]
+- regex: who is
+  examples: |
+    - [tell me][who is]
