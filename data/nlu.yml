@@ -15,7 +15,10 @@ nlu:
     - goodmorning
     - goodevening
     - good afternoon
-    - hi
+    - hii
+    - hellow
+    - hmm
+    - hlo
 - intent: goodbye
   examples: |
     - good afternoon
@@ -37,6 +40,8 @@ nlu:
     - of course
     - that sounds good
     - correct
+    - ok
+    - k
 - intent: deny
   examples: |
     - no
@@ -62,6 +67,9 @@ nlu:
     - so so perfect
     - so good
     - so perfect
+    - iam fine
+    - fine
+    - good
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -83,3 +91,56 @@ nlu:
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
+- intent: apj
+  examples: |
+    - who is [abdulkalam]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "apjname", "group": "aboutapj"}
+    - tell me about abdul kalam
+    - who is apj
+    - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about [adbulkalam]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "apjname", "group": "aboutapj"}
+    - who is kalam sir
+    - who is abdul kalam
+- intent: dob
+  examples: |
+    - when was he born
+    - whe was he born
+- intent: polioaffect
+  examples: |
+    - How is polio affected
+    - How does a child get polio?
+    - how polio attacks the body
+    - What does polio do to a person
+    - how did polio [attack]{"entity": "[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]", "role": "attack", "group": "disease"} the body
+    - how [i]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} get affected by polio
+    - how children gets afftected by polio
+    - how may i get affected by polio
+    - how is polio infectes
+    - how was polio affected
+- intent: polioinfo
+  examples: |
+    - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+    - [wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+- intent: achievements
+  examples: |
+    - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
+    - [tell]{"entity": "[brief][explain][give me]", "role": "achivements", "group": "winning"} me about his achievements
+- intent: researches
+  examples: |
+    - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [researches]{"entity": "[innovations][researches][discoveries][projects][experiments][investigations][study]", "role": "researches", "group": "innovations"} of [apj]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "researches", "group": "innovations"}
+- synonym: good
+  examples: |
+    - gud
+- synonym: ok
+  examples: |
+    - okay
+- regex: abdul kalam
+  examples: |
+    - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
+- regex: infected
+  examples: |
+    - [affected][infected][attacks]
+- regex: okay
+  examples: |
+    - [ok][k][hmm][hm][mm][yeah]
+- regex: who is
+  examples: |
+    - [tell me][who is]

@@ -19,15 +19,33 @@ intents:
     use_entities: true
 - bot_challenge:
     use_entities: true
-- hello:
+- apj:
     use_entities: true
-entities: []
+- dob:
+    use_entities: true
+- polioaffect:
+    use_entities: true
+- polioinfo:
+    use_entities: true
+- achievements:
+    use_entities: true
+- researches:
+    use_entities: true
+entities:
+- '[may i][me][myself][people][others][children][child][person][babies]['
+- '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
+- '[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]'
+- '[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]'
+- '[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]'
+- '[is][was][were][are]'
+- '[brief][explain][give me]'
+- '[innovations][researches][discoveries][projects][experiments][investigations][study]'
 slots: {}
 responses:
   utter_greet:
-  - text: Hey! How are you?
-  - text: Hello! How may I help you?
-  - text: Hii there!
+  - text: Hey! Lufy here.. How are you?
+  - text: Hello! Lufy here.. How may I help you?
+  - text: Hi there, Lufy here!
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -39,6 +57,42 @@ responses:
   - text: Bye
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
+  utter_apj:
+  - image: https://hindi.cdn.zeenews.com/hindi/sites/default/files/styles/zm_700x400/public/2017/10/15/172589-apj-abdul-kalam.jpg?itok=BX8w5JbT
+    text: Dr. Avul Pakir Jainulabdeen Abdul Kalam, 11th Indian President (2002-2007), Indian Aerospace Scientist, Head of ISRO and DRDO.
+  utter_affirm:
+  - text: Okay! Thanks..
+  utter_dob:
+  - text: Born on October 15, 1931 Rameswaram India
+  utter_polioaffect:
+  - image: https://www.criver.com/sites/default/files/content/uploads/12720_Coronavirus_Wuhan_China_CharlesRiverBlog.jpg
+    text: Polio, or poliomyelitis, is a viral disease which may affect the spinal cord causing muscle weakness and paralysis. The polio virus enters the body through the mouth, usually from hands contaminated with the stool of an infected person.
+  utter_polioinfo:
+  - image: https://www.cdc.gov/polio/images/whatispolio/india_polio_wide.jpg
+    text: |-
+      👉🏻Polio, or poliomyelitis, is a disabling and life-threatening disease caused by the poliovirus.
+      👉🏻The virus spreads from person to person and can infect a person’s spinal cord, causing paralysis (can’t move parts of the body).
+  utter_achievements:
+  - image: https://learnodo-newtonic.com/wp-content/uploads/2020/05/Abdul-Kalam-receiving-Bharat-Ratna-from-President-K.-R.-Narayanan.jpg.webp
+    text: |-
+      ✨ HE HELPED BUILD INDIA’S FIRST INDIGENOUS HOVERCRAFT.
+      ✨ HE WAS PART OF THE TEAM WHICH SET UP TERLS.
+      ✨KALAM WAS THE PROJECT DIRECTOR OF INDIA’S FIRST SLV(Satellite Launch Vehicle).
+      ✨HE WAS RESPONSIBLE FOR THE SUCCESSFUL LAUNCH OF AGNI AND PRITHVI MISSILES.
+      ✨DR KALAM SUPERVISED THE POKHRAN-II EXPLOSIONS AS THE CHIEF OF DRDO.
+      ✨HE SERVED AS THE FIRST PRINCIPAL SCIENTIFIC ADVISOR TO THE GOVERNMENT OF INDIA.
+      ✨DR. A. P. J. ABDUL KALAM SERVED AS THE 11TH PRESIDENT OF INDIA.
+      ✨HE SERVED IN VARIOUS EDUCATIONAL CAPACITIES POST PRESIDENCY.
+      ✨HE WROTE THE BESTSELLER WINGS OF FIRE.
+      ✨DR APJ ABDUL KALAM WAS AWARDED THE BHARAT RATNA IN 1997.
+  utter_researches:
+  - text: ⚡DR. APJ ABDUL KALAM WORKED ON LOW-WEIGHT(4kg - 400gm) ORTHO CALIPERS.
+  - text: |-
+      ⚡ Dr. Abdul Kalam worked on Low-weight(4kg - 400gm) Ortho Calipers.
+      ⚡Directed the project to develop India's first Satellite Launch Vehicle.
+      ⚡Headed multiple nuclear tests at Pokhran.
+      ⚡He worked in making healthcare accessible to all.
+      ⚡Developed the rugged 'Kalam-Raju tablet'.
 actions: []
 forms: {}
 e2e_actions: []

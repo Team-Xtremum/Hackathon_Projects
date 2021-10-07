@@ -26,3 +26,27 @@ stories:
   - action: utter_did_that_help
   - intent: deny
   - action: utter_goodbye
+- story: polioaffect
+  steps:
+  - intent: polioaffect
+  - action: utter_polioaffect
+- story: polioinfo
+  steps:
+  - intent: polioinfo
+  - action: utter_polioinfo
+  - intent: polioaffect
+  - action: utter_polioaffect
+- story: apj
+  steps:
+  - intent: apj
+  - action: utter_apj
+  - intent: dob
+  - action: utter_dob
+- story: success
+  steps:
+  - intent: achievements
+  - action: utter_achievements
+- story: researches
+  steps:
+  - intent: researches
+  - action: utter_researches
