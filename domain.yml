@@ -39,6 +39,12 @@ intents:
     use_entities: true
 - polio_prevent:
     use_entities: true
+- vaccine:
+    use_entities: true
+- vaccine_ipv:
+    use_entities: true
+- vaccine_opv:
+    use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
 - '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
@@ -124,6 +130,13 @@ responses:
   utter_polio_prevent:
   - image: https://images.everydayhealth.com/images/kids-health/ways-to-ease-your-babys-vaccination-pain-08-1440x180.jpg
     text: The best way to prevent polio is by vaccination. The inactivated polio vaccine (IPV) is given as a shot and is the only type of polio vaccine available in the United States. The oral polio vaccine (OPV) was discontinued in 2000. Children should receive four doses of IPV vaccine starting at 2 months of age.
+  utter_vaccine_ipv:
+  - buttons:
+    - payload: vaccine_ipv
+      title: Inactivated polio vaccine (IPV)
+    - payload: vaccine_opv
+      title: Oral polio vaccine (OPV)
+    text: Vaccines for polio attacks
 actions: []
 forms: {}
 e2e_actions: []

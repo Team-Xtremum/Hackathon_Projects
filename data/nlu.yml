@@ -142,6 +142,12 @@ nlu:
     - how to prevent polio
     - how can polio be prevented
     - prevention of polio
+- intent: vaccine_ipv
+  examples: |
+    - vaccine for polio
+- intent: vaccine_opv
+  examples: |
+    - vaccine for polio attack
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
