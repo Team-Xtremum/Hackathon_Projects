@@ -165,13 +165,6 @@ nlu:
     - how can polio be prevented
     - prevention of polio
     - vaccines to prevent polio
-- intent: vaccine
-  examples: |
-    - what are the vaccines for polio attack
-    - vaccines for polio attack
-    - vacccines foor polio
-    - vaccines for polio
-    - vaccines for polio attacks
 - intent: eradicate
   examples: |
     - How did India get rid of polio?
@@ -189,12 +182,6 @@ nlu:
 - intent: inventedpoliovaccine
   examples: |
     - Who invented polio vaccine?
-- intent: ipv
-  examples: |
-    - ipv vaccine
-- intent: opv
-  examples: |
-    - opv vaccine
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

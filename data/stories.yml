@@ -62,20 +62,6 @@ stories:
   steps:
   - intent: polio_prevent
   - action: utter_polio_prevent
-- story: vaccine
-  steps:
-  - intent: vaccine
-  - action: utter_vaccine
-  - intent: affirm
-  - action: utter_vaccine
-  - intent: ipv
-  - action: utter_ipv
-  - intent: affirm
-  - action: utter_ipv
-  - intent: opv
-  - action: utter_opv
-  - intent: affirm
-  - action: utter_opv
 - story: eradicate_polio
   steps:
   - intent: eradicate
