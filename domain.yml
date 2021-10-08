@@ -69,6 +69,8 @@ intents:
     use_entities: true
 - weight_reduced:
     use_entities: true
+- persons_invented:
+    use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
 - '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
@@ -187,6 +189,8 @@ responses:
   - text: 4kg to 400gm of light weight polio calipers
   utter_weight_reduced:
   - text: Weight is reduced due to the carbon carbon bonding(C=C) which is a covalent bond
+  utter_persons_invented:
+  - text: Dr A.P.J. Abdul Kalam and Nims director Dr L. Narendranath together invented low-weight ortho calipers in 1993.
 actions: []
 forms: {}
 e2e_actions: []
