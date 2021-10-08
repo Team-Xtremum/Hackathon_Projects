@@ -172,9 +172,6 @@ nlu:
     - vacccines foor polio
     - vaccines for polio
     - vaccines for polio attacks
-- intent: ipv
-  examples: |
-    - ipv vaccine
 - intent: eradicate
   examples: |
     - How did India get rid of polio?
@@ -192,6 +189,12 @@ nlu:
 - intent: inventedpoliovaccine
   examples: |
     - Who invented polio vaccine?
+- intent: ipv
+  examples: |
+    - ipv vaccine
+- intent: opv
+  examples: |
+    - opv vaccine
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
