@@ -5,6 +5,12 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- vaccines:
+    use_entities: true
+- ipv:
+    use_entities: true
+- opv:
+    use_entities: true
 - greet:
     use_entities: true
 - goodbye:
@@ -139,6 +145,17 @@ responses:
   - text: In 1955, the campaign bore fruit when Dr Jonas Salk developed the first vaccine against polio – an injectable, inactivated polio vaccine. In 1961, Dr Albert Sabin developed a "live" oral polio vaccine (OPV) which rapidly became the vaccine of choice for most national immunization programmes globally.
   utter_polioaffect:
   - text: Polio, or poliomyelitis, is a disabling and life-threatening disease caused by the poliovirus. The virus spreads from person to person and can infect a person's spinal cord, causing paralysis (can't move parts of the body).
+  utter_vaccines:
+  - buttons:
+    - payload: ipv
+      title: Infected Polio Vaccine(IPV)
+    - payload: opv
+      title: Oral Polio Vaccine(OPV)
+    text: 'Vaccines for polio attacks are:'
+  utter_ipv:
+  - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
+  utter_opv:
+  - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
 actions: []
 forms: {}
 e2e_actions: []

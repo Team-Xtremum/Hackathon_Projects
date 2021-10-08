@@ -186,6 +186,12 @@ nlu:
   examples: |
     - vaccines for polio attack
     - vaccines used for polio attacks
+- intent: ipv
+  examples: |
+    - ipv vaccine
+- intent: opv
+  examples: |
+    - opv vaccine
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
