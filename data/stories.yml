@@ -92,3 +92,7 @@ stories:
   - action: utter_opv
   - intent: affirm
   - action: utter_opv
+- story: poliocount
+  steps:
+  - intent: poliocount
+  - action: utter_poliocount

@@ -11,6 +11,8 @@ intents:
     use_entities: true
 - opv:
     use_entities: true
+- poliocount:
+    use_entities: true
 - greet:
     use_entities: true
 - goodbye:
@@ -156,6 +158,10 @@ responses:
   - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
   utter_opv:
   - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
+  utter_poliocount:
+  - text: |-
+      🤞 The annual number of wild poliovirus cases has declined by more than 99.9% worldwide from an estimated 350,000 in 1988 when the Global Polio Eradication Initiative was launched.
+      🤞 Of the three serotypes of wild poliovirus, type 2 was certified as eradicated in 2015 and type 3 was certified as eradicated in 2018.
 actions: []
 forms: {}
 e2e_actions: []

@@ -192,6 +192,12 @@ nlu:
 - intent: opv
   examples: |
     - opv vaccine
+- intent: poliocount
+  examples: |
+    - polio affected count in the world
+    - how many people affected from polio
+    - people affected from polio till now
+    - people count affected from polio
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
