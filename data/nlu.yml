@@ -182,6 +182,10 @@ nlu:
 - intent: inventedpoliovaccine
   examples: |
     - Who invented polio vaccine?
+- intent: vaccines
+  examples: |
+    - vaccines for polio attack
+    - vaccines used for polio attacks
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

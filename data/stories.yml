@@ -77,4 +77,4 @@ stories:
 - story: inventedvaccine
   steps:
   - intent: inventedpoliovaccine
-  - action: utter_invntedpoliovaccine
+  - action: utter_inventedpoliovaccine
