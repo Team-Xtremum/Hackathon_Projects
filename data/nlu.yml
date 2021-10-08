@@ -186,12 +186,15 @@ nlu:
   examples: |
     - vaccines for polio attack
     - vaccines used for polio attacks
+    - vaccines for polio
 - intent: ipv
   examples: |
     - ipv vaccine
+    - ipv
 - intent: opv
   examples: |
     - opv vaccine
+    - opv
 - intent: poliocount
   examples: |
     - polio affected count in the world
@@ -211,6 +214,10 @@ nlu:
   examples: |
     - what are calipers
     - explain brief on calipers
+- intent: calipers_kg
+  examples: |
+    - low-weight ortho calipers in kg
+    - weight of low-weight calipers
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

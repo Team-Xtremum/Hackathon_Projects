@@ -61,6 +61,8 @@ intents:
     use_entities: true
 - calipers:
     use_entities: true
+- calipers_kg:
+    use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
 - '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
@@ -174,6 +176,9 @@ responses:
   - text: Major polio epidemics were unknown before the 20th century; localized paralytic polio epidemics began to appear in Europe and the United States around 1900. The first report of multiple polio cases was published in 1843 and described an 1841 outbreak in Louisiana.
   utter_calipers:
   - text: Calipers are devices that enable people with motor disabilities — including polio-afflicted patients — to walk and thereby remain mobile. While polio has been eradicated from India and as such there are no new polio cases detected, patients with polio continue to throng BMVSS to get calipers fitted.
+  - text: An orthotics or caliper is used to repair, support, immobilize a body part in order to help patients suffering from locomotor disability restore weight bearing capabilities to the affected legs and permit the patient to steer while risk of falls and additional fractures
+  utter_caliper_kg:
+  - text: 4kg to 400gm of light weight polio calipers
 actions: []
 forms: {}
 e2e_actions: []

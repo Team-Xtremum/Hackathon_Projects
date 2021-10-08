@@ -82,15 +82,9 @@ stories:
   steps:
   - intent: vaccines
   - action: utter_vaccines
-  - intent: affirm
-  - action: utter_vaccines
   - intent: ipv
   - action: utter_ipv
-  - intent: affirm
-  - action: utter_ipv
   - intent: opv
-  - action: utter_opv
-  - intent: affirm
   - action: utter_opv
 - story: poliocount
   steps:
@@ -104,3 +98,7 @@ stories:
   steps:
   - intent: calipers
   - action: utter_calipers
+- story: weight_kg
+  steps:
+  - intent: weight_kg
+  - action: utter_weight_kg
