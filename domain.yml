@@ -13,6 +13,10 @@ intents:
     use_entities: true
 - poliocount:
     use_entities: true
+- poliocountperyear:
+    use_entities: true
+- firstpersonaffected:
+    use_entities: true
 - greet:
     use_entities: true
 - goodbye:
@@ -162,6 +166,10 @@ responses:
   - text: |-
       🤞 The annual number of wild poliovirus cases has declined by more than 99.9% worldwide from an estimated 350,000 in 1988 when the Global Polio Eradication Initiative was launched.
       🤞 Of the three serotypes of wild poliovirus, type 2 was certified as eradicated in 2015 and type 3 was certified as eradicated in 2018.
+  utter_poliocountperyear:
+  - text: Polio does still exist, although polio cases have decreased by over 99% since 1988, from an estimated more than 350 000 cases to 22 reported cases in 2017. This reduction is the result of the global effort to eradicate the disease.
+  utter_firstpersonaffected:
+  - text: Major polio epidemics were unknown before the 20th century; localized paralytic polio epidemics began to appear in Europe and the United States around 1900. The first report of multiple polio cases was published in 1843 and described an 1841 outbreak in Louisiana.
 actions: []
 forms: {}
 e2e_actions: []

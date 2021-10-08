@@ -96,3 +96,7 @@ stories:
   steps:
   - intent: poliocount
   - action: utter_poliocount
+- story: firstaffected
+  steps:
+  - intent: firstpersonaffected
+  - action: utter_firstpersonaffected

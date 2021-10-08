@@ -198,6 +198,15 @@ nlu:
     - how many people affected from polio
     - people affected from polio till now
     - people count affected from polio
+    - average number of people infected by polio
+- intent: poliocountperyear
+  examples: |
+    - How many people had polio per year
+    - how many cases of polio each year
+- intent: firstpersonaffected
+  examples: |
+    - who was the first  person to get affected by polio
+    - whom did polio affect first
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
