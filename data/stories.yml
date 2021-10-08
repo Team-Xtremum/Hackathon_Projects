@@ -76,3 +76,15 @@ stories:
   - action: utter_opv
   - intent: affirm
   - action: utter_opv
+- story: eradicate_polio
+  steps:
+  - intent: eradicate
+  - action: utter_eradicate
+- story: vaccine_date
+  steps:
+  - intent: vaccine_date
+  - action: utter_vaccine_date
+- story: agelimit
+  steps:
+  - intent: age_limit
+  - action: utter_age_limit
