@@ -143,16 +143,16 @@ responses:
     - payload: utter_opv
       title: Oral Polio Vaccine
     text: 'Vaccines for Polio attacks are:'
-  utter_ipv:
-  - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
-  utter_opv:
-  - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
   utter_eradicate:
   - text: In 1994, the Indian Government launched the Pulse Polio Campaign to eliminate polio. The current campaign involves annual vaccination of all children under age five.
   utter_vaccine_date:
   - text: In India, vaccination against polio started on 1985 with Expanded Programme on Immunization (EPI). By 1999, it covered around 60% of infants, giving three doses of OPV to each. In 1985, the Universal Immunization Programme (UIP) was launched to cover all the districts of the country.
   utter_age_limit:
   - text: For protection, all children must be immunized against polio, with OPV every time it is offered- up to age 5.
+  utter_ipv:
+  - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
+  utter_opv:
+  - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
 actions: []
 forms: {}
 e2e_actions: []
