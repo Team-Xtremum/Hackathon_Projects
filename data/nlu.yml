@@ -175,13 +175,6 @@ nlu:
 - intent: ipv
   examples: |
     - ipv vaccine
-    - utter_ipv
-    - infected polio vaccine
-- intent: opv
-  examples: |
-    - utter_opv
-    - opv vaccine
-    - oral polio vaccine
 - intent: eradicate
   examples: |
     - How did India get rid of polio?
