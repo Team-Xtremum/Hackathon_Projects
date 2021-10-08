@@ -51,6 +51,10 @@ intents:
     use_entities: true
 - age_limit:
     use_entities: true
+- vaccine_ipv:
+    use_entities: true
+- inventedpoliovaccine:
+    use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
 - '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
@@ -153,6 +157,8 @@ responses:
   - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
   utter_opv:
   - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
+  utter_inventedpoliovaccine:
+  - text: In 1955, the campaign bore fruit when Dr Jonas Salk developed the first vaccine against polio – an injectable, inactivated polio vaccine. In 1961, Dr Albert Sabin developed a "live" oral polio vaccine (OPV) which rapidly became the vaccine of choice for most national immunization programmes globally.
 actions: []
 forms: {}
 e2e_actions: []
