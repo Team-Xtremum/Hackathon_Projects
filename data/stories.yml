@@ -100,5 +100,5 @@ stories:
   - action: utter_calipers
 - story: weight_kg
   steps:
-  - intent: weight_kg
-  - action: utter_weight_kg
+  - intent: calipers_kg
+  - action: utter_calipers_kg
