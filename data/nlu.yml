@@ -229,6 +229,12 @@ nlu:
     - vacccines foor polio
     - what are the vaccines for polio attack
     - vaccines for polio attacks
+- intent: weight_reduced
+  examples: |
+    - how is the caliper weight reduced to 400grams
+- intent: persons_invented
+  examples: |
+    - who introduced low-weight ortho calipers
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
