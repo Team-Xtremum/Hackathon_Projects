@@ -207,6 +207,10 @@ nlu:
   examples: |
     - who was the first  person to get affected by polio
     - whom did polio affect first
+- intent: calipers
+  examples: |
+    - what are calipers
+    - explain brief on calipers
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

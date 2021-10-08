@@ -100,3 +100,7 @@ stories:
   steps:
   - intent: firstpersonaffected
   - action: utter_firstpersonaffected
+- story: calipers
+  steps:
+  - intent: calipers
+  - action: utter_calipers
