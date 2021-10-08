@@ -20,6 +20,8 @@ nlu:
     - hmm
     - hlo
     - hello lufy
+    - Hi
+    - HII
 - intent: goodbye
   examples: |
     - good afternoon
@@ -99,6 +101,11 @@ nlu:
     - who is apj
     - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about [adbulkalam]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "apjname", "group": "aboutapj"}
     - who is kalam sir
+    - tell me about adbul kalam
+    - tell me about apj
+    - who is Dr apj
+    - who is abdul kalam
+    - apj
 - intent: dob
   examples: |
     - when was he born
@@ -117,23 +124,32 @@ nlu:
     - how was polio affected
     - how may i get affecteed
     - how may i get affected
+    - how polio affects people
+    - how is polio afected
+    - how is polio infectes
 - intent: polioinfo
   examples: |
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - [wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - explain about polio
     - explain me about polio
+    - What [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}?
+    - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about polio
 - intent: achievements
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
     - [tell]{"entity": "[brief][explain][give me]", "role": "achivements", "group": "winning"} me about his achievements
+    - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievemens]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
+    - [wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
 - intent: researches
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [researches]{"entity": "[innovations][researches][discoveries][projects][experiments][investigations][study]", "role": "researches", "group": "innovations"} of [apj]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "researches", "group": "innovations"}
+    - [apj]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "researches", "group": "innovations"} [researches]{"entity": "[innovations][researches][discoveries][projects][experiments][investigations][study]", "role": "researches", "group": "innovations"}
 - intent: greet1
   examples: |
     - how are you lufy
     - how are you
+    - Hello how are you?
 - intent: symptoms
   examples: |
     - [what]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [symptoms]{"entity": "[mark][note][sign][token]", "role": "symptoms", "group": "symptoms"} of [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
@@ -148,18 +164,24 @@ nlu:
     - how to prevent polio
     - how can polio be prevented
     - prevention of polio
+    - vaccines to prevent polio
 - intent: vaccine
   examples: |
     - what are the vaccines for polio attack
     - vaccines for polio attack
     - vacccines foor polio
-- intent: vaccine_ipv
+    - vaccines for polio
+    - vaccines for polio attacks
+- intent: ipv
   examples: |
     - ipv vaccine
+    - utter_ipv
+    - infected polio vaccine
 - intent: opv
   examples: |
-    - opv vaccine
     - utter_opv
+    - opv vaccine
+    - oral polio vaccine
 - intent: eradicate
   examples: |
     - How did India get rid of polio?
@@ -174,9 +196,6 @@ nlu:
   examples: |
     - what is the age limit for polio vaccine
     - age limit for polio drops
-- intent: ipv
-  examples: |
-    - utter_ipv
 - intent: inventedpoliovaccine
   examples: |
     - Who invented polio vaccine?

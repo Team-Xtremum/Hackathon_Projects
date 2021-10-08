@@ -51,8 +51,6 @@ intents:
     use_entities: true
 - age_limit:
     use_entities: true
-- vaccine_ipv:
-    use_entities: true
 - inventedpoliovaccine:
     use_entities: true
 entities:
