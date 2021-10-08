@@ -22,6 +22,7 @@ nlu:
     - hello lufy
     - Hi
     - HII
+    - hiii
 - intent: goodbye
   examples: |
     - good afternoon
@@ -106,10 +107,13 @@ nlu:
     - who is Dr apj
     - who is abdul kalam
     - apj
+    - Who is Abdul Kalam
+    - Apj
 - intent: dob
   examples: |
     - when was he born
     - whe was he born
+    - when was h born
 - intent: polioaffect
   examples: |
     - How is polio affected
@@ -154,6 +158,7 @@ nlu:
   examples: |
     - [what]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [symptoms]{"entity": "[mark][note][sign][token]", "role": "symptoms", "group": "symptoms"} of [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - symptoms of polio
+    - symptoms for polio
 - intent: polio_orginated
   examples: |
     - where is [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"} [orginated]{"entity": "[arise][origin][begin][found][arose][rise][derived][start][develop][emanate][come from][stem][derive]", "role": "originate", "group": "originate"}
@@ -187,6 +192,7 @@ nlu:
     - vaccines for polio attack
     - vaccines used for polio attacks
     - vaccines for polio
+    - vaccines fro polio
 - intent: ipv
   examples: |
     - ipv vaccine
@@ -218,6 +224,11 @@ nlu:
   examples: |
     - low-weight ortho calipers in kg
     - weight of low-weight calipers
+- intent: vaccine
+  examples: |
+    - vacccines foor polio
+    - what are the vaccines for polio attack
+    - vaccines for polio attacks
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
