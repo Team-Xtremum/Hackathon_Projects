@@ -244,6 +244,7 @@ nlu:
 - intent: restart
   examples: |
     - restart
+    - /restart
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
