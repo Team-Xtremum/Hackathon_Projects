@@ -50,3 +50,55 @@ stories:
   steps:
   - intent: researches
   - action: utter_researches
+- story: finegreet
+  steps:
+  - intent: greet1
+  - action: utter_greet1
+- story: symptoms
+  steps:
+  - intent: symptoms
+  - action: utter_symptoms
+- story: prevent
+  steps:
+  - intent: polio_prevent
+  - action: utter_polio_prevent
+- story: eradicate_polio
+  steps:
+  - intent: eradicate
+  - action: utter_eradicate
+- story: vaccine_date
+  steps:
+  - intent: vaccine_date
+  - action: utter_vaccine_date
+- story: agelimit
+  steps:
+  - intent: age_limit
+  - action: utter_age_limit
+- story: inventedvaccine
+  steps:
+  - intent: inventedpoliovaccine
+  - action: utter_inventedpoliovaccine
+- story: vaccines
+  steps:
+  - intent: vaccines
+  - action: utter_vaccines
+  - intent: ipv
+  - action: utter_ipv
+  - intent: opv
+  - action: utter_opv
+- story: poliocount
+  steps:
+  - intent: poliocount
+  - action: utter_poliocount
+- story: firstaffected
+  steps:
+  - intent: firstpersonaffected
+  - action: utter_firstpersonaffected
+- story: calipers
+  steps:
+  - intent: calipers
+  - action: utter_calipers
+- story: weight_kg
+  steps:
+  - intent: calipers_kg
+  - action: utter_calipers_kg

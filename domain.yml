@@ -5,6 +5,18 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- vaccines:
+    use_entities: true
+- ipv:
+    use_entities: true
+- opv:
+    use_entities: true
+- poliocount:
+    use_entities: true
+- poliocountperyear:
+    use_entities: true
+- firstpersonaffected:
+    use_entities: true
 - greet:
     use_entities: true
 - goodbye:
@@ -31,6 +43,34 @@ intents:
     use_entities: true
 - researches:
     use_entities: true
+- greet1:
+    use_entities: true
+- symptoms:
+    use_entities: true
+- polio_orginated:
+    use_entities: true
+- polio_prevent:
+    use_entities: true
+- eradicate:
+    use_entities: true
+- vaccine_date:
+    use_entities: true
+- age_limit:
+    use_entities: true
+- inventedpoliovaccine:
+    use_entities: true
+- calipers:
+    use_entities: true
+- calipers_kg:
+    use_entities: true
+- weight_kg:
+    use_entities: true
+- vaccine:
+    use_entities: true
+- weight_reduced:
+    use_entities: true
+- persons_invented:
+    use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
 - '[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]'
@@ -40,6 +80,9 @@ entities:
 - '[is][was][were][are]'
 - '[brief][explain][give me]'
 - '[innovations][researches][discoveries][projects][experiments][investigations][study]'
+- '[what][wat]'
+- '[mark][note][sign][token]'
+- '[arise][origin][begin][found][arose][rise][derived][start][develop][emanate][come from][stem][derive]'
 slots: {}
 responses:
   utter_greet:
@@ -64,9 +107,6 @@ responses:
   - text: Okay! Thanks..
   utter_dob:
   - text: Born on October 15, 1931 Rameswaram India
-  utter_polioaffect:
-  - image: https://www.criver.com/sites/default/files/content/uploads/12720_Coronavirus_Wuhan_China_CharlesRiverBlog.jpg
-    text: Polio, or poliomyelitis, is a viral disease which may affect the spinal cord causing muscle weakness and paralysis. The polio virus enters the body through the mouth, usually from hands contaminated with the stool of an infected person.
   utter_polioinfo:
   - image: https://www.cdc.gov/polio/images/whatispolio/india_polio_wide.jpg
     text: |-
@@ -93,6 +133,64 @@ responses:
       ⚡Headed multiple nuclear tests at Pokhran.
       ⚡He worked in making healthcare accessible to all.
       ⚡Developed the rugged 'Kalam-Raju tablet'.
+  utter_greet1:
+  - text: I'm good.. How about you?
+  utter_symptoms:
+  - text: |-
+      ✔Fatigue.
+      ✔Fever.
+      ✔Headache.
+      ✔Neck stiffness.
+      ✔Pain in the arms and legs.
+      ✔Vomiting.
+      ✔Numbness, a feeling of pins and needles or tingling in the legs or arms.
+      ✔Paralysis in the legs, arms or torso.
+      ✔Trouble breathing because of muscle paralysis in the lungs.
+      ✔Death when the muscles you use to breathe become paralyzed.
+  utter_polio_orginated:
+  - image: https://ichef.bbci.co.uk/news/976/mcs/media/images/58542000/gif/_58542232_2002.gif
+    text: The source of reinfection was wild poliovirus originating from Nigeria. A subsequent intense vaccination campaign in Africa, however, led to an apparent elimination of the disease from the region; no cases had been detected for more than a year in 2014–15.
+  utter_polio_prevent:
+  - image: https://images.everydayhealth.com/images/kids-health/ways-to-ease-your-babys-vaccination-pain-08-1440x180.jpg
+    text: The best way to prevent polio is by vaccination. The inactivated polio vaccine (IPV) is given as a shot and is the only type of polio vaccine available in the United States. The oral polio vaccine (OPV) was discontinued in 2000. Children should receive four doses of IPV vaccine starting at 2 months of age.
+  utter_eradicate:
+  - text: In 1994, the Indian Government launched the Pulse Polio Campaign to eliminate polio. The current campaign involves annual vaccination of all children under age five.
+  utter_vaccine_date:
+  - text: In India, vaccination against polio started on 1985 with Expanded Programme on Immunization (EPI). By 1999, it covered around 60% of infants, giving three doses of OPV to each. In 1985, the Universal Immunization Programme (UIP) was launched to cover all the districts of the country.
+  utter_age_limit:
+  - text: For protection, all children must be immunized against polio, with OPV every time it is offered- up to age 5.
+  utter_inventedpoliovaccine:
+  - text: In 1955, the campaign bore fruit when Dr Jonas Salk developed the first vaccine against polio – an injectable, inactivated polio vaccine. In 1961, Dr Albert Sabin developed a "live" oral polio vaccine (OPV) which rapidly became the vaccine of choice for most national immunization programmes globally.
+  utter_polioaffect:
+  - text: Polio, or poliomyelitis, is a disabling and life-threatening disease caused by the poliovirus. The virus spreads from person to person and can infect a person's spinal cord, causing paralysis (can't move parts of the body).
+  utter_vaccines:
+  - buttons:
+    - payload: ipv
+      title: Infected Polio Vaccine(IPV)
+    - payload: opv
+      title: Oral Polio Vaccine(OPV)
+    text: 'Vaccines for polio attacks are:'
+  utter_ipv:
+  - text: IPV consists of a series of injections that start 2 months after birth and continue until the child is 4 to 6 years old. This version of the vaccine is provided to most children in the U.S. The vaccine is made from inactive poliovirus. It is very safe and effective and cannot cause polio.
+  utter_opv:
+  - text: OPV is created from a weakened form of poliovirus. This version is the vaccine of choice in many countries because it is low cost, easy to administer, and gives an excellent level of immunity. However, in very rare cases, OPV has been known to revert to a dangerous form of poliovirus, which is able to cause paralysis.
+  utter_poliocount:
+  - text: |-
+      🤞 The annual number of wild poliovirus cases has declined by more than 99.9% worldwide from an estimated 350,000 in 1988 when the Global Polio Eradication Initiative was launched.
+      🤞 Of the three serotypes of wild poliovirus, type 2 was certified as eradicated in 2015 and type 3 was certified as eradicated in 2018.
+  utter_poliocountperyear:
+  - text: Polio does still exist, although polio cases have decreased by over 99% since 1988, from an estimated more than 350 000 cases to 22 reported cases in 2017. This reduction is the result of the global effort to eradicate the disease.
+  utter_firstpersonaffected:
+  - text: Major polio epidemics were unknown before the 20th century; localized paralytic polio epidemics began to appear in Europe and the United States around 1900. The first report of multiple polio cases was published in 1843 and described an 1841 outbreak in Louisiana.
+  utter_calipers:
+  - text: Calipers are devices that enable people with motor disabilities — including polio-afflicted patients — to walk and thereby remain mobile. While polio has been eradicated from India and as such there are no new polio cases detected, patients with polio continue to throng BMVSS to get calipers fitted.
+  - text: An orthotics or caliper is used to repair, support, immobilize a body part in order to help patients suffering from locomotor disability restore weight bearing capabilities to the affected legs and permit the patient to steer while risk of falls and additional fractures
+  utter_calipers_kg:
+  - text: 4kg to 400gm of light weight polio calipers
+  utter_weight_reduced:
+  - text: Weight is reduced due to the carbon carbon bonding(C=C) which is a covalent bond
+  utter_persons_invented:
+  - text: Dr A.P.J. Abdul Kalam and Nims director Dr L. Narendranath together invented low-weight ortho calipers in 1993.
 actions: []
 forms: {}
 e2e_actions: []
