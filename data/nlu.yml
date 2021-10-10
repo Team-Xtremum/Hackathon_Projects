@@ -23,6 +23,7 @@ nlu:
     - Hi
     - HII
     - hiii
+    - Hello
 - intent: goodbye
   examples: |
     - good afternoon
@@ -37,6 +38,7 @@ nlu:
     - bye bye
     - see you later
     - Bye
+    - End my chat
 - intent: affirm
   examples: |
     - yes
@@ -56,6 +58,7 @@ nlu:
     - don't like that
     - no way
     - not really
+    - No
 - intent: mood_great
   examples: |
     - perfect
@@ -75,6 +78,7 @@ nlu:
     - iam fine
     - fine
     - good
+    - Good
 - intent: mood_unhappy
   examples: |
     - my day was horrible
@@ -160,6 +164,7 @@ nlu:
     - How are u
     - how r u
     - How r u
+    - fine and you
 - intent: symptoms
   examples: |
     - [what]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [symptoms]{"entity": "[mark][note][sign][token]", "role": "symptoms", "group": "symptoms"} of [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
@@ -245,6 +250,7 @@ nlu:
   examples: |
     - restart
     - /restart
+    - Clear my chat
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
