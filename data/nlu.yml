@@ -237,7 +237,7 @@ nlu:
     - vaccines for polio attacks
 - intent: weight_reduced
   examples: |
-    - how is the caliper weight reduced to 400grams
+    - how is the caliper weight reduced to 400 grams
 - intent: persons_invented
   examples: |
     - who introduced low-weight ortho calipers
