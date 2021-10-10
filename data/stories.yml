@@ -102,3 +102,7 @@ stories:
   steps:
   - intent: calipers_kg
   - action: utter_calipers_kg
+- story: goodbye
+  steps:
+  - intent: goodbye
+  - action: utter_goodbye
