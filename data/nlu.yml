@@ -241,6 +241,9 @@ nlu:
 - intent: persons_invented
   examples: |
     - who introduced low-weight ortho calipers
+- intent: restart
+  examples: |
+    - restart
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

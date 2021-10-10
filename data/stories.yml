@@ -106,3 +106,7 @@ stories:
   steps:
   - intent: goodbye
   - action: utter_goodbye
+- story: restart
+  steps:
+  - intent: restart
+  - action: utter_restart

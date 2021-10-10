@@ -63,13 +63,13 @@ intents:
     use_entities: true
 - calipers_kg:
     use_entities: true
-- weight_kg:
-    use_entities: true
 - vaccine:
     use_entities: true
 - weight_reduced:
     use_entities: true
 - persons_invented:
+    use_entities: true
+- restart:
     use_entities: true
 entities:
 - '[may i][me][myself][people][others][children][child][person][babies]['
@@ -126,7 +126,6 @@ responses:
       ✨HE WROTE THE BESTSELLER WINGS OF FIRE.
       ✨DR APJ ABDUL KALAM WAS AWARDED THE BHARAT RATNA IN 1997.
   utter_researches:
-  - text: ⚡DR. APJ ABDUL KALAM WORKED ON LOW-WEIGHT(4kg - 400gm) ORTHO CALIPERS.
   - text: |-
       ⚡ Dr. Abdul Kalam worked on Low-weight(4kg - 400gm) Ortho Calipers.
       ⚡Directed the project to develop India's first Satellite Launch Vehicle.
@@ -191,6 +190,8 @@ responses:
   - text: Weight is reduced due to the carbon carbon bonding(C=C) which is a covalent bond
   utter_persons_invented:
   - text: Dr A.P.J. Abdul Kalam and Nims director Dr L. Narendranath together invented low-weight ortho calipers in 1993.
+  utter_restart:
+  - text: Hey there I'm refreshed!..
 actions: []
 forms: {}
 e2e_actions: []
