@@ -158,3 +158,15 @@ stories:
   steps:
   - intent: virus created
   - action: utter_virus created
+- story: topic
+  steps:
+  - intent: topic
+  - action: utter_topic
+- story: chemicals
+  steps:
+  - intent: chemicals
+  - action: utter_chemicals
+- story: poliospread
+  steps:
+  - intent: poliospread
+  - action: utter_poliospread

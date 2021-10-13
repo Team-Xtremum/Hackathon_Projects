@@ -304,6 +304,10 @@ nlu:
 - intent: topic
   examples: |
     - what is your topic
+    - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} topic
+- intent: poliospread
+  examples: |
+    - how polio  spreads
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
