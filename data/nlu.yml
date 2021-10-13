@@ -258,6 +258,7 @@ nlu:
 - intent: worked with
   examples: |
     - who [worked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} [along]{"entity": "[alongside]", "role": "Assist", "group": "Teamed"} with dr apj
+    - who worked along with apj
 - intent: under weight
   examples: |
     - what [are]([is][were]) the reason of [being]([attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]) under weight
