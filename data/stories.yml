@@ -110,3 +110,51 @@ stories:
   steps:
   - intent: restart
   - action: utter_restart
+- story: worked with
+  steps:
+  - intent: worked with
+  - action: utter_worked with
+- story: under weight
+  steps:
+  - intent: under weight
+  - action: utter_under weight
+- story: calipers invented
+  steps:
+  - intent: calipers invented
+  - action: utter_calipers invented
+- story: introduced
+  steps:
+  - intent: introduced
+  - action: utter_introduced
+- story: low weight calipers
+  steps:
+  - intent: low weight calipers
+  - action: utter_low weight calipers
+- story: discoverd vaccine
+  steps:
+  - intent: discoverd vaccine
+  - action: utter_discoverd vaccine
+- story: affected country
+  steps:
+  - intent: affected country
+  - action: utter_affected country
+- story: first discoverd
+  steps:
+  - intent: first discoverd
+  - action: utter_first discoverd
+- story: invented country
+  steps:
+  - intent: invented country
+  - action: utter_invented country
+- story: vaccine created
+  steps:
+  - intent: vaccine created
+  - action: utter_vaccine created
+- story: man made virus
+  steps:
+  - intent: man made virus
+  - action: utter_man made virus
+- story: virus created
+  steps:
+  - intent: virus created
+  - action: utter_virus created

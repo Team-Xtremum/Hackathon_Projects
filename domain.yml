@@ -5,6 +5,42 @@ session_config:
   session_expiration_time: 60
   carry_over_slots_to_new_session: true
 intents:
+- worked with:
+    use_entities: true
+- under weight:
+    use_entities: true
+- chemicals:
+    use_entities: true
+- calipers invented:
+    use_entities: true
+- calipers created:
+    use_entities: true
+- created:
+    use_entities: true
+- introduced:
+    use_entities: true
+- info of low weight calipers:
+    use_entities: true
+- polio dangerous:
+    use_entities: true
+- invented vaccine:
+    use_entities: true
+- discoverd vaccine:
+    use_entities: true
+- affected country:
+    use_entities: true
+- first discoverd:
+    use_entities: true
+- invented country:
+    use_entities: true
+- vaccine created:
+    use_entities: true
+- man made virus:
+    use_entities: true
+- virus created:
+    use_entities: true
+- low weight calipers:
+    use_entities: true
 - vaccines:
     use_entities: true
 - ipv:
@@ -83,6 +119,38 @@ entities:
 - '[what][wat]'
 - '[mark][note][sign][token]'
 - '[arise][origin][begin][found][arose][rise][derived][start][develop][emanate][come from][stem][derive]'
+- '[helped][assistant]'
+- '[alongside]'
+- '[is][were]'
+- '[what the reason]'
+- '[firstly found][invented][firstly created]'
+- '[where did][the place]'
+- '[firstly found][invented][introduced]'
+- '[are][were][was]'
+- '[calipers means]'
+- '[why is][why was]'
+- '[invented]'
+- '[how the]'
+- '[medicine][injection][cure]'
+- '[is][was][were]'
+- '[kg]'
+- '[tell][tell me][define]'
+- '[first][first person][who][which]'
+- '[person]'
+- '[numbers][members][peoples][cases list]'
+- '[are][was][were]'
+- '[u r][created]'
+- '[why][y]'
+- '[created]'
+- '[u r][you][you were]'
+- '[did][is]'
+- '[find][finded][found][founded][invented][cured]'
+- '[medicine][injection]'
+- '[when][person]'
+- '[found][founded]'
+- '[highest]'
+- '[found]'
+- '[found][created]'
 slots: {}
 responses:
   utter_greet:
@@ -192,6 +260,37 @@ responses:
   - text: Dr A.P.J. Abdul Kalam and Nims director Dr L. Narendranath together invented low-weight ortho calipers in 1993.
   utter_restart:
   - text: Hey there I'm refreshed!..
+  utter_worked with:
+  - text: Nims director DR L.Narendranath who works closely with DR A.P.J , to develop low weight calipers using space age materials.
+  utter_under weight:
+  - text: Being underweight can represent as many health concerns to an individual as being overweight can. If a person is underweight, their body may not be getting the nutrients it needs to build healthy bones, skin, and hair.
+  utter_calipers invented:
+  - text: Introduced in 1998, light-weight calipers for the polio-affected was such a concept. It was a brainchild of Kalam, when he was the director of Defence Research and Development Laboratory (DRDL) in Hyderabad, and BN Prasad, then head of orthopedics at the Nizam’s Institute of Medical Sciences. The calipers were made of glass-filled polypropylene, used in missiles — reducing their weight from four kilogram to 400 grams, providing relief to users.
+  utter_introduced:
+  - image: https://th.thgim.com/migration_catalog/article10463745.ece/ALTERNATES/FREE_460/kalam
+    text: Images and events in Belgaum, Karnataka on October 15, 2004 keeps coming back to Dr. L. Narendranath, as he sits in his chambers in Hyderabad-based Nizam’s Institute of Medical Sciences (NIMS) on Tuesday and reflects the day’s significance. That day marked President Kalam’s birthday and it was also the day when his dream to deliver affordable lightweight callipers to the polio-stricken actually became a reality.
+  utter_ low weight calipers:
+  - image: https://5.imimg.com/data5/ET/EI/LF/SELLER-19411349/polio-caliper-500x500.jpg
+    text: 'Light weight polio calipers for polio patients to strengthen their knee ankle foot and allow them for comfort sitting and walking. Fully customized KAFO with light weight orthotic components assembled by professional orthotists. Knee Ankle Foot Orthoses (KAFOs): KAFOs are designed to provide support, proper joint alignment to the knee, foot and ankle, assist or substitute for muscle weakness, and protect the foot and lower limb. KAFOs can be made from a variety of materials from metal to plastic. Other names include: posterior offset knee joint, stance control, locked knee, drop lock, bail or French lock and trigger lock.'
+  utter_polio dangerous:
+  - text: Polio, or poliomyelitis, is a disabling and life-threatening disease caused by the poliovirus. The virus spreads from person to person and can infect a person's spinal cord, causing paralysis (can't move parts of the body).
+  utter_discoverd vaccine:
+  - text: In 1955, the campaign bore fruit when Dr Jonas Salk developed the first vaccine against polio – an injectable, inactivated polio vaccine. In 1961, Dr Albert Sabin developed a "live" oral polio vaccine (OPV) which rapidly became the vaccine of choice for most national immunization programmes globally.
+  utter_affected country:
+  - text: Pakistan reported the world's highest number of polio cases (198) in 2011.
+  utter_first discoverd:
+  - text: The first epidemics appeared in the form of outbreaks of at least 14 cases near Oslo, Norway, in 1868 and of 13 cases in northern Sweden in 1881. About the same time the idea began to be suggested that the hitherto sporadic cases of infantile paralysis might be contagious.
+  utter_invented country:
+  - text: Some European countries imported the Salk IPV from the US whereas some other like the Netherlands, Denmark, and Sweden started production of Salk IPV in their own public health production units [9].
+  - text: "Year of discovery\t1956(Vaccine-Associated Paralytic Poliomyelitis (VAPP))\t2000(Vaccine-derived poliovirus (VDPV))"
+  utter_vaccine created:
+  - text: The first inactivated polio vaccine (IPV) was produced by Salk using virus grown on monkey kidney cells and inactivated with formalin. In 1954, the inactivated vaccine was tested in a placebo-controlled trial, which enrolled 1.6 million children in Canada, Finland and the United States.
+  utter_man made virus:
+  - text: The disease may be diagnosed by finding the virus in the feces or detecting antibodies against it in the blood. The disease occurs naturally only in humans. The disease is preventable with the polio vaccine; however, multiple doses are required for it to be effective.
+  utter_virus created:
+  - text: Using a genetic recipe from the Internet and mail-order DNA, scientists in New York have built an infectious polio virus from scratch, raising the grim prospect that bioterrorists could eventually create their own virulent diseases in test tubes.
+  utter_chemicals:
+  - text: Chemicals used to reduce the weight of the calipers is C=C (double bond configuration)
 actions: []
 forms: {}
 e2e_actions: []
