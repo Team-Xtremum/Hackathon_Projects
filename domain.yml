@@ -15,8 +15,6 @@ intents:
     use_entities: true
 - calipers created:
     use_entities: true
-- created:
-    use_entities: true
 - introduced:
     use_entities: true
 - info of low weight calipers:
@@ -127,7 +125,6 @@ entities:
 - '[alongside]'
 - '[is][were]'
 - '[what the reason]'
-- '[firstly found][invented][firstly created]'
 - '[where did][the place]'
 - '[firstly found][invented][introduced]'
 - '[are][were][was]'
@@ -143,7 +140,6 @@ entities:
 - '[person]'
 - '[numbers][members][peoples][cases list]'
 - '[are][was][were]'
-- '[u r][created]'
 - '[why][y]'
 - '[created]'
 - '[u r][you][you were]'
@@ -299,6 +295,10 @@ responses:
   - text: The topic is "Dr. APJ Abdul Kalam research on low-weight ortho calipers"
   utter_poliospreads:
   - text: Polio is spread when the stool of an infected person is introduced into the mouth of another person through contaminated water or food (fecal-oral transmission). Oral-oral transmission by way of an infected person's saliva may account for some cases.
+  utter_invented vaccine:
+  - text: In 1955, the campaign bore fruit when Dr Jonas Salk developed the first vaccine against polio – an injectable, inactivated polio vaccine. In 1961, Dr Albert Sabin developed a "live" oral polio vaccine (OPV) which rapidly became the vaccine of choice for most national immunization programmes globally.
+  utter_calipers created:
+  - text: Pierre Vernier has created calipers for polio attacked people
 actions: []
 forms: {}
 e2e_actions: []

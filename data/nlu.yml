@@ -308,6 +308,12 @@ nlu:
 - intent: poliospread
   examples: |
     - how polio  spreads
+- intent: invented vaccine
+  examples: |
+    - who invented vaccine
+- intent: calipers created
+  examples: |
+    - who invented calipers
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

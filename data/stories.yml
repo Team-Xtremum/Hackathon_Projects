@@ -170,3 +170,11 @@ stories:
   steps:
   - intent: poliospread
   - action: utter_poliospread
+- story: invented vaccine
+  steps:
+  - intent: invented vaccine
+  - action: utter_invented vaccine
+- story: calipers created
+  steps:
+  - intent: calipers created
+  - action: utter_calipers created
