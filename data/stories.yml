@@ -126,10 +126,6 @@ stories:
   steps:
   - intent: introduced
   - action: utter_introduced
-- story: low weight calipers
-  steps:
-  - intent: low weight calipers
-  - action: utter_low weight calipers
 - story: discoverd vaccine
   steps:
   - intent: discoverd vaccine
@@ -178,3 +174,123 @@ stories:
   steps:
   - intent: calipers created
   - action: utter_calipers created
+- story: children affected
+  steps:
+  - intent: children affected
+  - action: utter_children affected
+- story: price of calipers
+  steps:
+  - intent: price of calipers
+  - action: utter_price of calipers
+- story: worked in caliper
+  steps:
+  - intent: worked in caliper
+  - action: utter_worked in caliper
+- story: apj died
+  steps:
+  - intent: apj died
+  - action: utter_apj died
+- story: president
+  steps:
+  - intent: president
+  - action: utter president
+- story: useofcalipers
+  steps:
+  - intent: useofcalipers
+  - action: utter_useofcalipers
+- story: weightofcalipers
+  steps:
+  - intent: weightofcalipers
+  - action: utter_weightofcalipers
+- story: normalcaliperweight
+  steps:
+  - intent: normalcaliperweight
+  - action: utter_normalcaliperweight
+- story: diagnosis
+  steps:
+  - intent: diagnosis
+  - action: utter_diagnosis
+- story: diagnose
+  steps:
+  - intent: diagnose
+  - action: utter_diagnose
+- story: virusofpolio
+  steps:
+  - intent: virusofpolio
+  - action: utter_virusofpolio
+- story: othername
+  steps:
+  - intent: othername
+  - action: utter_othername
+- story: childrengetpolio
+  steps:
+  - intent: childrengetpolio
+  - action: utter_childrengetpolio
+- story: istherecure
+  steps:
+  - intent: istherecure
+  - action: utter_istherecure
+- story: whentovaccinate
+  steps:
+  - intent: whentovaccinate
+  - action: utter_whentovaccinate
+- story: causepolio
+  steps:
+  - intent: causepolio
+  - action: utter_causepolio
+- story: materials
+  steps:
+  - intent: materils
+  - action: utter_materials
+- story: whenvaccineinvented
+  steps:
+  - intent: whenvaccineinvented
+  - action: utter_whenvaccineinvented
+- story: spaceage
+  steps:
+  - intent: spaceage
+  - action: utter_spaceage
+- story: administered
+  steps:
+  - intent: administered
+  - action: utter_administered
+- story: available
+  steps:
+  - intent: available
+  - action: utter_available
+- story: whyvaccine
+  steps:
+  - intent: whyvaccine
+  - action: utter_whyvaccine
+- story: adults
+  steps:
+  - intent: adults
+  - action: utter_adults
+- story: signs
+  steps:
+  - intent: signs
+  - action: utter_signs
+- story: adddoses
+  steps:
+  - intent: adddoses
+  - action: utter_adddoses
+- story: safe
+  steps:
+  - intent: safe
+  - action: utter_safe
+- story: effective
+  steps:
+  - intent: effective
+  - action: utter_effective
+- story: notreceive
+  steps:
+  - intent: notreceive
+  - action: notreceive
+- story: ipvpolio
+  steps:
+  - intent: ipvpolio
+  - action: utter_ipvpolio
+- story: sideeffect
+  steps:
+  - intent: sideeffect
+  - action: utter_sideeffect

@@ -117,11 +117,17 @@ nlu:
     - apj
     - Who is Abdul Kalam
     - Apj
+    - when did kalam die
+    - where was abdul kalam born
+    - is kalam alive
+    - who was kalam
+    - abdul kalam
 - intent: dob
   examples: |
     - when was he born
     - whe was he born
     - when [was]([did][is]) he born
+    - where was kalam born
 - intent: polioaffect
   examples: |
     - How is polio affected
@@ -139,6 +145,7 @@ nlu:
     - how polio affects people
     - how is polio afected
     - how is polio infectes
+    - what did kalam build for polio affected children
 - intent: polioinfo
   examples: |
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
@@ -149,6 +156,7 @@ nlu:
     - [tell]{"entity": "[brief][explain][give me]", "role": "tell", "group": "explain"} [me]{"entity": "[may i][me][myself][people][others][children][child][person][babies][", "role": "noun", "group": "human"} about polio
     - [Wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} ppoliio
+    - what [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
 - intent: achievements
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
@@ -168,6 +176,7 @@ nlu:
     - how r u
     - How r u
     - fine and you
+    - what can you respond to
 - intent: symptoms
   examples: |
     - [what]{"entity": "[what][wat]", "role": "questions", "group": "question"} [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the [symptoms]{"entity": "[mark][note][sign][token]", "role": "symptoms", "group": "symptoms"} of [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
@@ -196,7 +205,7 @@ nlu:
     - when polio vaccine was invented
 - intent: age_limit
   examples: |
-    - what is the age limit for polio vaccine
+    - what [is]([are][was][were]) the age limit for polio vaccine
     - age limit for polio drops
 - intent: inventedpoliovaccine
   examples: |
@@ -208,6 +217,8 @@ nlu:
     - vaccines used for polio attacks
     - vaccines for polio
     - vaccines fro polio
+    - medicine for polio
+    - vaccine for polio
 - intent: ipv
   examples: |
     - ipv vaccine
@@ -216,6 +227,8 @@ nlu:
   examples: |
     - opv vaccine
     - opv
+    - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} opv
+    - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [pov]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
 - intent: poliocount
   examples: |
     - polio affected count in the world
@@ -231,10 +244,12 @@ nlu:
   examples: |
     - who was the first  person to get affected by polio
     - [whom]([first][first person][who][which]) [did]([person]) polio [affect]([attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]) first
+    - who is first person affected by polio
 - intent: calipers
   examples: |
-    - what [are]([is][was][were]) calipers
+    - what [are]{"entity": "[is][was][were]", "role": "weight loss"} calipers
     - [explain]([tell][tell me][define]) brief on calipers
+    - what [is]([are][were][was]) caliper
 - intent: calipers_kg
   examples: |
     - low-weight ortho calipers in kg
@@ -250,6 +265,7 @@ nlu:
 - intent: persons_invented
   examples: |
     - who [introduced]([invented]) low-weight ortho calipers
+    - how does the low-weight ortho caliper work
 - intent: restart
   examples: |
     - restart
@@ -259,6 +275,9 @@ nlu:
   examples: |
     - who [worked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} [along]{"entity": "[alongside]", "role": "Assist", "group": "Teamed"} with dr apj
     - who worked along with apj
+    - who worked along apj
+    - who [worked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} with pj
+    - who [worked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} with apj
 - intent: under weight
   examples: |
     - what [are]([is][were]) the reason of [being]([attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]) under weight
@@ -266,15 +285,16 @@ nlu:
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} the chemicals [were]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} used
     - what type of chemicals where used
+    - material used in low-weight caliper
+    - material used in caliper
 - intent: calipers invented
   examples: |
-    - [why]{"entity": "[what the reason]", "role": "weight loss", "group": "low weight"} the low weight calipers invented
+    - [why]{"entity": "[what the reason]", "role": "weight loss", "group": "low weight"} the low weight [calipers]([caliper]) [invented]([created])
+    - calipers
+    - ortho calipers
 - intent: introduced
   examples: |
     - [where]{"entity": "[where did][the place]", "role": "place"} was the low weight calipers [created]{"entity": "[firstly found][invented][introduced]", "role": "Founded place", "group": "discoverd "}
-- intent: info of low weight calipers
-  examples: |
-    - what [is]([are][were][was]) low weight [calipers]{"entity": "[calipers means]", "role": "question", "group": "info"}
 - intent: polio dangerous
   examples: |
     - [Is]{"entity": "[why is][why was]", "role": "safety measure"} polio is dangerous
@@ -284,6 +304,8 @@ nlu:
 - intent: affected country
   examples: |
     - polio [most]([highest]) [affected]{"entity": "[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]", "role": "question"} country
+    - [most]([highest]) [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus"} [affected]{"entity": "[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]", "role": "question"} country
+    - which country [affected]{"entity": "[attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]", "role": "question"} [most]([highest])
 - intent: first discoverd
   examples: |
     - where was the polio first [discoverd]([found]) in the world
@@ -299,9 +321,6 @@ nlu:
 - intent: virus created
   examples: |
     - how was [polio]([poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]) [virus]([attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]) created
-- intent: low weight calipers
-  examples: |
-    - what is low weight caliper
 - intent: topic
   examples: |
     - what is your topic
@@ -309,12 +328,112 @@ nlu:
 - intent: poliospread
   examples: |
     - how polio  spreads
+    - how  polio spreads
 - intent: invented vaccine
   examples: |
     - who invented vaccine
 - intent: calipers created
   examples: |
     - who invented calipers
+- intent: president
+  examples: |
+    - who was the president of india in [2003]{"entity": "[2002][2004][2005][2006][2007]", "role": "year", "group": "president"}
+    - who was the president
+- intent: children affected
+  examples: |
+    - how many children were affected by polio
+- intent: price of calipers
+  examples: |
+    - what was the price of [calipers]{"entity": "[low weight calipers]", "role": "price"}
+- intent: worked in caliper
+  examples: |
+    - who worked along with apj in low weight caliper
+- intent: apj died
+  examples: |
+    - when did apj died
+- intent: poliotreat
+  examples: |
+    - how to [treat]([treated][get cured by]) polio
+- intent: useofcalipers
+  examples: |
+    - how to use calipers
+- intent: weightofcalipers
+  examples: |
+    - weight of low-weight caliper
+    - weight of calipers
+- intent: normalcaliperweight
+  examples: |
+    - how heavy is normal caliper
+- intent: diagnosis
+  examples: |
+    - polio diagnosis
+- intent: diagnose
+  examples: |
+    - how to diagnose polio
+- intent: virusofpolio
+  examples: |
+    - [virus]([attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]) of polio
+- intent: othername
+  examples: |
+    - other name of polio
+- intent: childrengetpolio
+  examples: |
+    - how children get polio
+- intent: istherecure
+  examples: |
+    - is there cure for polio
+- intent: whentovaccinate
+  examples: |
+    - when to vaccinate
+- intent: causepolio
+  examples: |
+    - what [causes]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+- intent: materials
+  examples: |
+    - what material was used in calipers
+- intent: info of low weight calipers
+  examples: |
+    - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus"} low weight caliper
+- intent: whenvaccineinvented
+  examples: |
+    - when was polio vaccine invented
+    - when was poli vaccine invented
+- intent: spaceage
+  examples: |
+    - what was space age material used for
+- intent: administered
+  examples: |
+    - how is the vaccine administered
+- intent: available
+  examples: |
+    - when did the polio vaccine first became available
+- intent: whyvaccine
+  examples: |
+    - why should i vaccinate my child against polio
+- intent: adults
+  examples: |
+    - should adults get vaccinated against polio
+- intent: signs
+  examples: |
+    - how long does it take to show signs of polio after being exposed
+- intent: adddoses
+  examples: |
+    - Does my child need additional doses of polio vaccine if we received a combination of opv and ipv
+- intent: safe
+  examples: |
+    - How safe is this vaccine
+- intent: effective
+  examples: |
+    - how effective is polio vaccine
+- intent: notreceive
+  examples: |
+    - who should not receive polio vaccine
+- intent: ipvpolio
+  examples: |
+    - can the ipv vaccine cause polio
+- intent: sideeffect
+  examples: |
+    - what side effect have been reported with this vaccine
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
