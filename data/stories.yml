@@ -294,3 +294,7 @@ stories:
   steps:
   - intent: sideeffect
   - action: utter_sideeffect
+- story: caliper
+  steps:
+  - intent: caliper
+  - action: utter_caliper

@@ -145,7 +145,6 @@ nlu:
     - how polio affects people
     - how is polio afected
     - how is polio infectes
-    - what did kalam build for polio affected children
 - intent: polioinfo
   examples: |
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
@@ -339,12 +338,16 @@ nlu:
   examples: |
     - who was the president of india in [2003]{"entity": "[2002][2004][2005][2006][2007]", "role": "year", "group": "president"}
     - who was the president
+- intent: caliper
+  examples: |
+    - what did kalam [build]([firstly found][invented][introduced]) for [polio]([poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]) affected children
 - intent: children affected
   examples: |
     - how many children were affected by polio
 - intent: price of calipers
   examples: |
     - what [was]([is][was][were][are]) the price of [calipers]{"entity": "[low weight calipers]", "role": "price"}
+    - price of calipers
 - intent: worked in caliper
   examples: |
     - who worked along with apj in low weight caliper
@@ -438,6 +441,7 @@ nlu:
 - intent: sideeffect
   examples: |
     - what side effect have been reported with this vaccine
+    - side effects have been reported with this vaccine
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]

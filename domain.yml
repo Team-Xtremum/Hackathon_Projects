@@ -25,6 +25,8 @@ intents:
     use_entities: true
 - sideeffect:
     use_entities: true
+- caliper:
+    use_entities: true
 - virusofpolio:
     use_entities: true
 - othername:
@@ -422,6 +424,8 @@ responses:
   - text: NO. The inactivated polio vaccine IPV cannot cause paralytic polio because it contains killed virus only
   utter_sideeffect:
   - text: 'Possible side effects include minor local reactions at the site of injection. Examples: pain and redness.'
+  utter_caliper:
+  - text: Kalam build low-weight ortho caliper that weighs 400gm for polio affected children.
 actions:
 - utter president
 - notreceive
