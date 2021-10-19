@@ -74,7 +74,7 @@ stories:
   steps:
   - intent: age_limit
   - action: utter_age_limit
-- story: inventedvaccine
+- story: inventedpoliovaccine
   steps:
   - intent: inventedpoliovaccine
   - action: utter_inventedpoliovaccine

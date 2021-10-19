@@ -344,7 +344,7 @@ nlu:
     - how many children were affected by polio
 - intent: price of calipers
   examples: |
-    - what was the price of [calipers]{"entity": "[low weight calipers]", "role": "price"}
+    - what [was]([is][was][were][are]) the price of [calipers]{"entity": "[low weight calipers]", "role": "price"}
 - intent: worked in caliper
   examples: |
     - who worked along with apj in low weight caliper
@@ -361,9 +361,13 @@ nlu:
   examples: |
     - weight of low-weight caliper
     - weight of calipers
+    - weight of normal calipers
+    - weight of caliper
 - intent: normalcaliperweight
   examples: |
     - how heavy is normal caliper
+    - how heavy is calipers
+    - how heavy is caliper
 - intent: diagnosis
   examples: |
     - polio diagnosis
@@ -391,13 +395,13 @@ nlu:
 - intent: materials
   examples: |
     - what material was used in calipers
+    - material used in low-weight calipers
 - intent: info of low weight calipers
   examples: |
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus"} low weight caliper
 - intent: whenvaccineinvented
   examples: |
     - when was polio vaccine invented
-    - when was poli vaccine invented
 - intent: spaceage
   examples: |
     - what was space age material used for
@@ -421,7 +425,7 @@ nlu:
     - Does my child need additional doses of polio vaccine if we received a combination of opv and ipv
 - intent: safe
   examples: |
-    - How safe is this vaccine
+    - How safe is [this]([poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]) vaccine
 - intent: effective
   examples: |
     - how effective is polio vaccine
