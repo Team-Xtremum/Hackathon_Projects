@@ -285,7 +285,7 @@ stories:
 - story: notreceive
   steps:
   - intent: notreceive
-  - action: notreceive
+  - action: utter_notreceive
 - story: ipvpolio
   steps:
   - intent: ipvpolio
