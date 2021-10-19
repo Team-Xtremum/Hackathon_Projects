@@ -202,6 +202,7 @@ nlu:
     - When did India started making polio vaccine?
     - when polio vaccine invented in India
     - when polio vaccine was invented
+    - when was poli vaccine invented
 - intent: age_limit
   examples: |
     - what [is]([are][was][were]) the age limit for polio vaccine
@@ -417,6 +418,7 @@ nlu:
 - intent: whyvaccine
   examples: |
     - why should i vaccinate my child against polio
+    - why should i vaccine my child against polio
 - intent: adults
   examples: |
     - should adults get vaccinated against polio
@@ -435,9 +437,11 @@ nlu:
 - intent: notreceive
   examples: |
     - who should not receive polio vaccine
+    - who should not receive polio
 - intent: ipvpolio
   examples: |
     - can the ipv vaccine cause polio
+    - can ipv vaccine cause polio
 - intent: sideeffect
   examples: |
     - what side effect have been reported with this vaccine
