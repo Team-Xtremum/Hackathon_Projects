@@ -298,3 +298,7 @@ stories:
   steps:
   - intent: caliper
   - action: utter_caliper
+- story: info of low weight calipers
+  steps:
+  - intent: info of low weight calipers
+  - action: utter_info of low weight calipers

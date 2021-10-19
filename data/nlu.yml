@@ -278,6 +278,7 @@ nlu:
     - who worked along apj
     - who [worked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} with pj
     - who [worked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} with apj
+    - who [worrked]{"entity": "[helped][assistant]", "role": "Assist", "group": "Teamed"} with apj
 - intent: under weight
   examples: |
     - what [are]([is][were]) the reason of [being]([attack][affect][infected][affected][infects][infect][affects][contaminate][disease][illness][epidemic]) under weight
@@ -345,6 +346,7 @@ nlu:
 - intent: children affected
   examples: |
     - how many children were affected by polio
+    - how many cildren were affected by polio
 - intent: price of calipers
   examples: |
     - what [was]([is][was][were][are]) the price of [calipers]{"entity": "[low weight calipers]", "role": "price"}
@@ -412,6 +414,7 @@ nlu:
 - intent: administered
   examples: |
     - how is the vaccine administered
+    - how is the vaccine  adminnisteres
 - intent: available
   examples: |
     - when did the polio vaccine first became available
@@ -431,6 +434,7 @@ nlu:
 - intent: safe
   examples: |
     - How safe is [this]([poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]) vaccine
+    - how safe is this vaccine
 - intent: effective
   examples: |
     - how effective is polio vaccine
