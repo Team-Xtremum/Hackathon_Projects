@@ -302,3 +302,7 @@ stories:
   steps:
   - intent: info of low weight calipers
   - action: utter_info of low weight calipers
+- story: name
+  steps:
+  - intent: name
+  - action: utter_name

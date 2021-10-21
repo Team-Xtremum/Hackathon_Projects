@@ -171,6 +171,8 @@ intents:
     use_entities: true
 - poliocount:
     use_entities: true
+- name:
+    use_entities: true
 - poliocountperyear:
     use_entities: true
 entities:
@@ -429,6 +431,8 @@ responses:
   utter_info of low weight calipers:
   - image: https://5.imimg.com/data5/ET/EI/LF/SELLER-19411349/polio-caliper-500x500.jpg
     text: Light weight polio calipers for polio patients to strengthen their knee ankle foot and allow them for comfort sitting and walking.
+  utter_name:
+  - text: Hello there!.. Lufy here
 actions:
 - utter president
 forms: {}

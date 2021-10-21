@@ -156,6 +156,7 @@ nlu:
     - [Wat]{"entity": "[what][wat]", "role": "questions", "group": "question"} [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
     - what [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} ppoliio
     - what [polio]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
+    - wt [is]{"entity": "[is][was][were][are]", "role": "poliovirus", "group": "polio"} [polia]{"entity": "[poliosis][polio][poliomyelitis][infantile paralysis][heine-medin disease][poliovirus]", "role": "poliovirus", "group": "polio"}
 - intent: achievements
   examples: |
     - what [are]{"entity": "[is][was][were][are]", "role": "verb", "group": "verb"} [his]{"entity": "[abdul kalam][apj][kalam sir][abdul][kalam][Dr.apj][Dr.abdul kalam][Dr.avul pakir jainulabdeen abdul kalam]", "role": "noun", "group": "human"} [achievements]{"entity": "[achieve][attainment][winning][win][procurement][accomplishment]acquirement][success][triumph][coup][baby][effort][performance][victory]", "role": "achivements", "group": "winning"}
@@ -450,6 +451,9 @@ nlu:
   examples: |
     - what side effect have been reported with this vaccine
     - side effects have been reported with this vaccine
+- intent: name
+  examples: |
+    - what is your name
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
