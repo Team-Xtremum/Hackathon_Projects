@@ -454,6 +454,7 @@ nlu:
 - intent: name
   examples: |
     - what is your name
+    - wt is ur name
 - regex: abdul kalam
   examples: |
     - [apj][abdul kalam][kalam sir][abdul kalam sir][kalam]
