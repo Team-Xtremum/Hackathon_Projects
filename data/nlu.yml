@@ -95,7 +95,7 @@ nlu:
     - are you a bot?
     - are you a human?
     - am I talking to a bot?
-- - intent: greet1
+- intent: greet1
   examples: |
     - how are you lufy
     - how are you
