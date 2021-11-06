@@ -150,3 +150,9 @@ nlu:
     - Can Warm Weather Stop The Spread Of Coronavirus
     - Will warmer weather stop the spread of coronavirus
     - How does warmer weather affect the transmission of COVID-19?
+- intent: community_spread
+  examples: |
+    - what is community spread
+    - how does community spread occurs
+    - community spread
+    - what is community transmission of coronavirus

@@ -50,3 +50,7 @@ stories:
   steps:
   - intent: corona_warm_spread
   - action: utter_corona_warm_spread
+- story: community spread
+  steps:
+  - intent: community_spread
+  - action: utter_community_spread
