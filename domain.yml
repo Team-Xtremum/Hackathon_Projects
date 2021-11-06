@@ -33,7 +33,8 @@ entities: []
 slots: {}
 responses:
   utter_greet:
-  - text: Hey! How are you?
+  - image: https://o.remove.bg/downloads/3eb3f439-7a09-42cc-8e6d-071a3961614b/1608731313-masterclassherosara-1-removebg-preview.png
+    text: Hello! Lufy here.. I can help you with the information related to COVID-19 answers on the topic info of corona virus, spread, symptoms, treatment, prevention, current statistics and more.
   utter_cheer_up:
   - image: https://i.imgur.com/nGF1K8f.jpg
     text: 'Here is something to cheer you up:'
@@ -46,7 +47,7 @@ responses:
   utter_iamabot:
   - text: I am a bot, powered by Rasa.
   utter_greet1:
-  - text: Hey! I'm great.. Thanks
+  - text: Hey! I'm great.. Thanks How may I help you?
   utter_corona_info:
   - image: https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_36
     text: The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in December 2019 in Wuhan, China. The World Health Organization declared the outbreak a Public Health Emergency of International Concern on 30 January 2020 and a pandemic on 11 March 2020.
