@@ -108,3 +108,10 @@ nlu:
     - tell me about corona
     - can you tell me about corona
     - can you tell me about covid-19
+- intent: corona_risk
+  examples: |
+    - who is at higher risk of infection
+    - who is more prone to get corona virus infection
+    - who is at higher risk of serious symptoms
+    - Who are at higher risk of developing serious illness from COVID-19?
+    - who is at higher risk
