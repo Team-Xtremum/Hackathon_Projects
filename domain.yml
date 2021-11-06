@@ -29,6 +29,8 @@ intents:
     use_entities: true
 - corona_spread:
     use_entities: true
+- corona_food_spread:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -57,6 +59,9 @@ responses:
   utter_corona_spread:
   - image: https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/coronavirus/covid19-family-safety-coronavirus.ashx
     text: People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person.
+  utter_corona_food_spread:
+  - image: https://www.scienzaesalutesilviadedonno.it/wp-content/uploads/2021/02/img-0_cibo-e-coronavirus.jpg
+    text: There is currently no evidence that people can catch COVID-19 from food. The virus that causes COVID-19 can be killed at temperatures similar to that of other known viruses and bacteria found in food.
 actions: []
 forms: {}
 e2e_actions: []

@@ -125,3 +125,13 @@ nlu:
     - covid19 spread
     - How does COVID-19 spread?
     - how novel corona virus spread
+- intent: corona_food_spread
+  examples: |
+    - Can COVID-19 (coronavirus) spread through food
+    - Can COVID-19 be transmitted through food?
+    - Can I get COVID-19 from eating fresh foods, like fruits and vegetables?
+    - can food spread corona
+    - can we be infected by corona through food
+    - can food transmit corona
+    - Can the coronavirus disease be transmitted through the consumption of cooked foods, including animal products
+    - does corona virus spread through food

@@ -42,3 +42,7 @@ stories:
   steps:
   - intent: corona_spread
   - action: utter_corona_spread
+- story: food spread
+  steps:
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
