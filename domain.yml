@@ -23,6 +23,8 @@ intents:
     use_entities: true
 - hello:
     use_entities: true
+- corona_info:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -41,6 +43,9 @@ responses:
   - text: I am a bot, powered by Rasa.
   utter_greet1:
   - text: Hey! I'm great.. Thanks
+  utter_corona_info:
+  - image: https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_36
+    text: The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in December 2019 in Wuhan, China. The World Health Organization declared the outbreak a Public Health Emergency of International Concern on 30 January 2020 and a pandemic on 11 March 2020.
 actions: []
 forms: {}
 e2e_actions: []

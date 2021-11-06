@@ -30,3 +30,7 @@ stories:
   steps:
   - intent: greet1
   - action: utter_greet1
+- story: corona info
+  steps:
+  - intent: corona_info
+  - action: utter_corona_info

@@ -100,3 +100,11 @@ nlu:
     - how are you lufy
     - how are you
     - Hello how are you?
+- intent: corona_info
+  examples: |
+    - what is corona
+    - what is covid-19
+    - what is novel corona virus
+    - tell me about corona
+    - can you tell me about corona
+    - can you tell me about covid-19
