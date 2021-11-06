@@ -25,6 +25,10 @@ intents:
     use_entities: true
 - corona_info:
     use_entities: true
+- corona_risk:
+    use_entities: true
+- corona_spread:
+    use_entities: true
 entities: []
 slots: {}
 responses:
@@ -46,6 +50,12 @@ responses:
   utter_corona_info:
   - image: https://www.who.int/images/default-source/health-topics/coronavirus/corona-virus-getty.tmb-1200v.jpg?Culture=en&sfvrsn=217a6a68_36
     text: The COVID-19 pandemic, also known as the coronavirus pandemic, is an ongoing pandemic of coronavirus disease 2019 (COVID-19) caused by severe acute respiratory syndrome coronavirus 2 (SARS-CoV-2). The disease was first identified in December 2019 in Wuhan, China. The World Health Organization declared the outbreak a Public Health Emergency of International Concern on 30 January 2020 and a pandemic on 11 March 2020.
+  utter_corona_risk:
+  - image: https://www.statnews.com/wp-content/uploads/2020/03/Coronavirus_who_does_it_affect.jpg
+    text: People of any age, even children, can catch COVID-19 . But it most commonly affects middle-aged and older adults. The risk of developing dangerous symptoms increases with age, with those who are age 85 and older at the highest risk of serious symptoms.
+  utter_corona_spread:
+  - image: https://www.hopkinsmedicine.org/-/media/images/health/1_-conditions/coronavirus/covid19-family-safety-coronavirus.ashx
+    text: People can catch COVID-19 from others who have the virus. The disease can spread from person to person through small droplets from the nose or mouth which are spread when a person with COVID-19 coughs or exhales. These droplets land on objects and surfaces around the person.
 actions: []
 forms: {}
 e2e_actions: []

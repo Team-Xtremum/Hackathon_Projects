@@ -34,3 +34,11 @@ stories:
   steps:
   - intent: corona_info
   - action: utter_corona_info
+- story: corona risk
+  steps:
+  - intent: corona_risk
+  - action: utter_corona_risk
+- story: corona spread
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread

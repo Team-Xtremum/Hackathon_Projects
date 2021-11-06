@@ -115,3 +115,13 @@ nlu:
     - who is at higher risk of serious symptoms
     - Who are at higher risk of developing serious illness from COVID-19?
     - who is at higher risk
+- intent: corona_spread
+  examples: |
+    - how does corona virus spread
+    - how does this virus spread
+    - how does corona spread
+    - corona spread
+    - covid spread
+    - covid19 spread
+    - How does COVID-19 spread?
+    - how novel corona virus spread
