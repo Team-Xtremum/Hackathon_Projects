@@ -34,3 +34,23 @@ stories:
   steps:
   - intent: corona_info
   - action: utter_corona_info
+- story: corona risk
+  steps:
+  - intent: corona_risk
+  - action: utter_corona_risk
+- story: corona spread
+  steps:
+  - intent: corona_spread
+  - action: utter_corona_spread
+- story: food spread
+  steps:
+  - intent: corona_food_spread
+  - action: utter_corona_food_spread
+- story: warm spread
+  steps:
+  - intent: corona_warm_spread
+  - action: utter_corona_warm_spread
+- story: community spread
+  steps:
+  - intent: community_spread
+  - action: utter_community_spread
